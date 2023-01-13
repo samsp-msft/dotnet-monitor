@@ -43,6 +43,7 @@
 
   <ItemGroup>
     <EmbeddedResource Include="..\..\documentation\openapi.json" Link="swagger\v1\swagger.json" />
+    <EmbeddedResource Include="..\..\..\dotnet-monitor-ui\dist\dotnet-monitor-ui\*.*" Link="dotnet_monitor_ui\%(RecursiveDir)%(Filename)%(Extension)" /> 
   </ItemGroup>
   
   <ItemGroup>
